@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Question Number Copier",
+  "version": "1.0",
+  "description": "Extracts and copies the LeetCode question number.",
+  "permissions": ["scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/problems/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
