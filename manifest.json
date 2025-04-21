@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "LeetCode Question Number Copier",
+  "name": "LeetCode Auto-Solver",
   "version": "1.0",
-  "description": "Extracts and copies the LeetCode question number.",
-  "permissions": ["scripting"],
+  "description": "Fetch and copy WalkCCC solution to clipboard & LeetCode editor.",
+  "permissions": ["clipboardWrite", "scripting", "activeTab"],
   "content_scripts": [
     {
       "matches": ["https://leetcode.com/problems/*"],
